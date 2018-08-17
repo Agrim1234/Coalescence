@@ -1,0 +1,424 @@
+body{
+    background: lightgray;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #262626;
+    font-family: Arial;
+    height: 54px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+}
+
+#logo{
+    position: fixed;
+    z-index: 6;
+    width: 52px;
+    height: 40px;
+}
+
+.head3 {
+    position: fixed;
+    top: -3px;
+    left: 6%;
+    font-family: Arial;
+    z-index: 6;
+    color: white
+}
+
+#drop1 {
+    border-radius: 16px;
+    position: absolute;
+    top: 4px;
+    left: 57.5%;
+    float: right;
+    overflow: hidden;
+    background-color: inherit;
+}
+
+#drop2 {
+    border-radius: 16px;
+    position: absolute;
+    top: 4px;
+    left: 67%;
+    float: right;
+    overflow: hidden;
+    background-color: white;
+}
+
+#drop3 {
+    position: absolute;
+    top: 4px;
+    border-radius: 16px;
+    left: 48%;
+    float: right;
+    overflow: hidden;
+    background-color: inherit;
+}
+
+#drop4 {
+    position: absolute;
+    top: 4px;
+    border-radius: 16px;
+    left: 76%;
+    float: right;
+    overflow: hidden;
+    background-color: inherit;
+}
+
+#drop5 {
+    position: absolute;
+    top: 4px;
+    border-radius: 16px;
+    left: 90%;
+    float: right;
+    overflow: hidden;
+    background-color: inherit;
+}
+
+.dropdown .dropbtn1{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    color: white;
+    cursor: pointer;
+}
+
+.dropdown .dropbtn2{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    color: black;
+    cursor: pointer;
+}
+
+.dropdown .dropbtn3{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    color: white;
+    cursor: pointer;
+}
+
+.dropdown .dropbtn4{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    color: white;
+    cursor: pointer;
+}
+
+.dropdown .dropbtn5{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    color: white;
+    cursor: pointer;
+}
+
+.dropdown:hover .dropbtn1{
+    background-color: white;
+    color: black;
+}
+
+.dropdown:hover .dropbtn2{
+    background-color: white;
+    color: black;
+}
+
+.dropdown:hover .dropbtn3{
+    background-color: white;
+    color: black;
+}
+
+.dropdown:hover .dropbtn4{
+    background-color: white;
+    color: black;
+}
+
+.dropdown:hover .dropbtn5{
+    background-color: white;
+    color: black;
+}
+
+.mdropdown .mdropbtn{
+    width: 160px;
+    position: absolute;
+    top: 200px;
+    left: 6.8%;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: firebrick;
+   font-family: arial;
+    margin: 0;
+}
+
+.mdropdown:hover .mdropbtn {
+    background-color: red;
+}
+
+.mdropdown-content {
+    position: absolute;
+    top: 240px;
+    left: 6.8%;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;font-family: arial;
+
+}
+
+.mdropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    float: none;
+}
+
+.mdropdown-content a:hover {background-color: #ddd}
+
+.mdropdown:hover .mdropdown-content {
+    display: block;
+}
+
+
+#mdrop {
+    position: absolute;
+    top: 10px;
+    left: 80%;
+}
+
+#currentm {
+    position: absolute;
+    top: 190px;
+    display: block;
+    width: 400px;
+    height: 100px;
+    
+}
+
+#pastm {
+    position: absolute;
+    top: 190px;
+    display: none;
+    width: 400px;
+    height: 100px;
+}
+
+.cur {
+  text-shadow: 2px 2px 5px grey;
+  position: absolute;
+  width: 99.4%;
+  height: 60px;
+  background: linear-gradient(to right, rgba(211, 211, 211, 0), rgba(26, 26, 26, 1), rgba(0, 255, 0, 0));
+  top: 54px;
+  z-index: 4;
+  font-size: 28px;
+  text-align: center;
+  color: white;
+}
+
+#current{
+  width: 100%;
+  font-family: arial;
+  font-size: 26px;
+  position: absolute;
+  top:-15px;
+  text-align: center;
+}
+
+#person1 {
+  position: absolute;
+  top: 160px;
+  width: 160px;
+  height: 220px;
+  left:3%;
+}
+
+#person2 {
+    position: absolute;
+    top: 160px;
+    left:22.6%;
+    width: 160px;
+    height: 220px;
+}
+
+#person3 {
+    position: absolute;
+    top: 160px;
+    left:42%;
+    width: 160px;
+    height: 220px;
+}
+
+#person4 {
+    position: absolute;
+    top: 160px;
+    left:61.4%;
+    width: 160px;
+    height: 220px;
+}
+
+#person5 {
+    position: absolute;
+    top: 160px;
+    left:81%;
+    width: 160px;
+    height: 220px;
+}
+
+#person6 {
+    position: absolute;
+    top: 500px;
+    left:3%;
+    width: 160px;
+    height: 220px;
+}
+
+#person7 {
+    position: absolute;
+    top: 500px;
+    left:22.6%;
+    width: 160px;
+    height: 220px;
+}
+
+#person1:hover, #person2:hover, #person3:hover, #person4:hover, #person5:hover, #person6:hover, #person7:hover{
+  box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.5);  
+}
+
+#pperson1:hover, #pperson2:hover, #pperson3:hover, #pperson4:hover{
+  box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.5);  
+}
+
+#mimg1, #mimg2, #mimg3, #mimg4, #mimg5, #mimg6, #mimg7{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13px;
+    width: 70%;
+}
+
+#mhead1, #mhead2, #mhead3, #mhead4, #mhead5, #mhead6, #mhead7{
+    margin-top: 19px;
+    text-align: center;
+}
+
+#mdesc1, #mdesc2, #mdesc3, #mdesc4, #mdesc5, #mdesc6, #mdesc7{
+    text-align: center;
+}
+
+#pperson1 {
+  position: absolute;
+  top: 160px;
+  left:3%;
+  width: 160px;
+  height: 220px;
+}
+
+#pperson2 {
+  position: absolute;
+  top: 160px;
+  left:22.6%;
+  width: 160px;
+  height: 220px;
+}
+
+#pperson3 {
+  position: absolute;
+  top: 160px;
+  left:42%;
+    width: 160px;
+    height: 220px;
+}
+
+#pperson4 {
+  position: absolute;
+  top: 160px;
+  left:61.7%;
+    width: 160px;
+    height: 220px;
+}
+
+#phead1, #phead2, #phead3, #phead4{
+    margin-top: 19px;
+    text-align: center;
+}
+
+#pdesc1, #pdesc2, #pdesc3, #pdesc4{
+    text-align: center;
+}
+
+#pimg1, #pimg2, #pimg3, #pimg4{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13px;
+    width: 70%;
+}
+
+#mcurr {
+    position: absolute;
+    top: 24px;
+    font-family: arial;
+    font-size: 24px;
+    width: inherit;
+    text-align: center;
+}
+
+#mpre {
+    position: absolute;
+    top: 24px;
+    font-family: arial;
+    font-size: 24px;
+    width: inherit;
+    text-align: center;
+}
+
+.mprevious{
+    position: absolute;
+    left: 23%;
+    top: 200px;
+    display: none;
+    background: white;
+    box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.5);
+    height:549px;
+    width: 940px;
+}
+
+.mcurrent{    
+    background: white;
+    position: absolute;
+    left: 23%;
+    top: 200px;
+    display: block;
+    box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.5);
+    height:799px;
+    width: 940px;
+}

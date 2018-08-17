@@ -1,0 +1,569 @@
+body{
+    background: #FFD700;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #262626;
+    font-family: Arial;
+    height: 55px;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 5;
+}
+
+#logo{
+    position: fixed;
+    z-index: 6;
+    width: 52px;
+    height: 40px;
+}
+
+.head3 {
+    position: fixed;
+    top: -3px;
+    left: 6%;
+    font-family: Arial;
+    z-index: 6;
+    color: white;
+}
+
+#drop1 {
+    position: absolute;
+    top: 4px;
+    left: 57.5%;
+    float: right;
+    overflow: hidden;
+    background-color: white;
+    color: black;
+    border-radius: 16px;
+}
+
+#drop2 {
+    position: absolute;
+    top: 4px;
+    left: 67%;
+    float: right;
+    overflow: hidden;
+    background-color: inherit;
+    color:white;
+    border-radius: 16px;
+}
+
+#drop3 {
+    color:white;
+    position: absolute;
+    top: 4px;
+    left: 48%;
+    float: right;
+    overflow: hidden;
+    background-color: inherit;
+    border-radius: 16px;
+}
+
+#drop4 {
+    color: white;
+    position: absolute;
+    top: 4px;
+    left: 76%;
+    float: right;
+    overflow: hidden;
+    background-color: inherit;
+    border-radius: 16px;
+}
+
+#drop5 {
+    color: white;
+    position: absolute;
+    top: 4px;
+    left: 90%;
+    float: right;
+    overflow: hidden;
+    background-color: inherit;
+    border-radius: 16px;
+}
+
+.pdropdown .pdropbtn1{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    color: black;
+}
+
+.pdropdown .pdropbtn2{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    color: white;
+}
+
+.pdropdown .pdropbtn3{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    color: white;
+}
+
+.pdropdown .pdropbtn4{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    color: white;
+}
+
+.pdropdown .pdropbtn5{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    color: white;
+}
+
+#curr{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-family: arial;
+    font-size: 23px;
+}
+
+#pas{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-family: arial;
+    font-size: 23px;
+}
+
+
+.pdropdown .pdropbtn4{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    color: white;
+}
+
+.pdropdown:hover .pdropbtn1{
+    background-color: white;
+    color: black;
+}
+
+.pdropdown:hover .pdropbtn2{
+    background-color: white;
+    color: black;
+}
+
+.pdropdown:hover .pdropbtn3{
+    background-color: white;
+    color: black;
+}
+
+.pdropdown:hover .pdropbtn4{
+    background-color: white;
+    color: black;
+}
+
+.pdropdown:hover .pdropbtn5{
+    background-color: white;
+    color: black;
+}
+
+.project {
+    
+  text-shadow: 2px 2px 5px grey;
+  position: absolute;
+  width: 99.4%;
+  height: 60px;
+  background: linear-gradient(to right, rgba(211, 211, 211, 0), rgba(26, 26, 26, 1), rgba(0, 255, 0, 0));
+  top: 54px;
+  z-index: 4;
+  font-size: 28px;
+  text-align: center;
+  color: white;
+}
+
+#proj {
+  width: 100%;
+  font-family: arial;
+  position: absolute;
+  top:-15px;
+  text-align: center;
+    font-size: 26px;
+}
+
+.dropdown .dropbtn{
+    width: 160px;
+    position: absolute;
+    top: 200px;
+    left: 06.8%;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: firebrick;
+    font: inherit;
+    margin: 0;
+    font-family: arial;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    position: absolute;
+    top: 240px;
+    left: 6.8%;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    float: none;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#pdrop {
+    position: absolute;
+    top: 10px;
+    left: 80%
+}
+
+#current {
+    position: absolute;
+    top: 200px;
+    left: 24%;
+    display: block;
+    width: 70%;
+    height: 1870px;
+    background: white;
+    box-shadow: 0px 3px 18px 0px rgba(0,0,0,0.4);
+}
+
+#past {
+    background: white;
+    box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.3);
+    position: absolute;
+    top: 200px;
+    left: 24%;
+    display: none;
+    width: 70%;
+    height:1270px;
+}
+
+#cplink1, #cplink2, #cplink3, #cplink4,  #cplink9, #cplink11, #pplink1, #pplink2, #pplink3, #pplink4{
+    cursor: pointer;
+    margin-top: 8%;
+    margin-left: 5%;
+    height: 40px;
+    width: 100px;
+    border-radius: 17px;
+    color: black;
+    background-color: inherit;
+    border: 1px solid;
+
+}
+
+#pplink5, #pplink6, #pplink7, #pplink8{
+    cursor: pointer;   
+}
+
+#cplink1:hover, #cplink2:hover, #cplink3:hover, #cplink4:hover,  #cplink9:hover, #cplink11:hover, #pplink1:hover, #pplink2:hover, #pplink3:hover, #pplink4:hover{
+    background-color: black;
+    color: white;
+}
+
+#cplink5, #cplink6, #cplink7, #cplink8,#cplink10,#cplink12,{
+    cursor: pointer;
+}
+
+.cmodal1, .cmodal2, .cmodal3, .cmodal4, .cmodal5,.cmodal6, .ppmodal1, .ppmodal2, .ppmodal3, .ppmodal4 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 10; /* Sit on top */
+    padding-top: 54px; /* Location of the box */
+    left: 0%;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.cmodal-content1, .cmodal-content2, .cmodal-content3, .cmodal-content4, .cmodal-content5, .cmodal-content6, .ppmodal-content1, .ppmodal-content2, .ppmodal-content3, .ppmodal-content4{
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    height: 500px;
+}
+
+.cmid1, .cmid2, .cmid3, .cmid4, .cmid5, .cmid6,.ppmid1, .ppmid2, .ppmid3, .ppmid4{
+    position: absolute;
+    width: 75%;
+    left: 13%;
+    text-align: center;
+    top: 290px;
+    font-family: arial;
+    font-size: 17px;
+}
+
+#cpt1, #cpt2, #cpt3, #cpt4,#cpt5, #cpt6, #pph1, #pph2, #pph3,#pph4{
+    position: absolute;
+    top: 140px;
+    left: 10%;
+    width: 80%;
+    font-family: arial;
+    font-size: 21px;
+    text-align: center;
+}
+
+#cps1, #cps2, #cps3,#cps4, #cps5,#cps6,#pps1, #pps2, #pps3,#pps4{
+    position: absolute;
+    top: 238px;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    font-family: arial;
+    font-size: 21px;
+}
+
+#cpimg1, #cpimg2, #cpimg3,#cpimg4, #cpimg5,#cpimg6,#ppimg1, #ppimg2, #ppimg3,#ppimg4{
+    position: absolute;
+    top: 130px;
+    left: 22%;
+}
+
+#cpmimg1, #cpmimg2, #cpmimg3,#cpmimg4, #cpmimg5,#cpmimg6,#ppmimg1, #ppmimg2, #ppmimg3,#ppmimg4{
+    margin-top: 5%;
+    margin-left: 23%;
+}
+
+#ppicon1,#ppicon2,#ppicon3,#ppicon4,#cpicon1,#cpicon2,#cpicon3,#cpicon4,#cpicon5,#cpicon6{
+    position: absolute;
+    top: 80px;
+    left: 85%;
+    box-shadow: 0px 4px 13px 0px rgba(0,0,0,0.3);
+}
+
+#cabout1 {
+    position: absolute;
+    top: 260px;
+    left: 9%;
+    width: 290px;
+    font-family: arial;
+    font-size: 16.7px;
+}
+
+#cabout2 {
+    position: absolute;
+    top: 260px;
+    left: 9%;
+    width: 290px;
+    font-family: arial;
+    font-size: 16.7px;
+}
+
+#cabout3 {
+    position: absolute;
+    top: 260px;
+    left: 9%;
+    width: 290px;
+    font-family: arial;
+    font-size: 16.7px;
+}
+
+#cabout4 {
+    position: absolute;
+    top: 260px;
+    left: 9%;
+    width: 290px;
+    font-family: arial;
+    font-size: 16.7px;
+}
+
+#cabout5 {
+    position: absolute;
+    top: 260px;
+    left: 9%;
+    width: 290px;
+    font-family: arial;
+    font-size: 16.7px;
+}
+
+#cabout6 {
+    position: absolute;
+    top: 260px;
+    left: 9%;
+    width: 290px;
+    font-family: arial;
+    font-size: 16.7px;
+}
+
+#cproject1 {
+    position: absolute;
+    top: 140px;
+    left: 4%;
+    width: 350px;
+    height: 500px;
+    
+}
+
+#cproject2 {
+    position: absolute;
+    top: 140px;
+    left: 56%;
+    width: 350px;
+    height: 500px;
+}
+
+#cproject3 {
+    position: absolute;
+    top: 749px;
+    left: 4%;
+    width: 350px;
+    height: 500px;
+
+}
+
+#cproject4 {
+    position: absolute;
+    top: 749px;
+    left: 56%;
+    width: 350px;
+    height: 500px;
+
+}
+
+#cproject5 {
+    position: absolute;
+    top: 1329px;
+    left: 4%;
+    width: 350px;
+    height: 500px;
+}
+
+#cproject6 {
+    position: absolute;
+    top: 1329px;
+    left: 56%;
+    width: 350px;
+    height: 500px;
+}
+
+#cproject1:hover, #cproject2:hover, #cproject3:hover, #cproject4:hover, #cproject5:hover, #cproject6:hover{
+    box-shadow: 0px 4px 13px 0px rgba(0,0,0,0.3);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#pproject1:hover, #pproject2:hover, #pproject3:hover, #pproject4:hover{
+    box-shadow: 0px 4px 13px 0px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#pabout1 {
+    position: absolute;
+    top: 260px;
+    left: 9%;
+    width: 290px;
+    font-family: arial;
+    font-size: 16.7px;
+}
+
+#pabout2 {
+    position: absolute;
+    top: 260px;
+    left: 9%;
+    width: 290px;
+    font-family: arial;
+    font-size: 16.7px;
+
+}
+
+#pabout3 {
+    position: absolute;
+    top: 260px;
+    left: 9%;
+    width: 290px;
+    font-family: arial;
+    font-size: 16.7px;
+}
+
+#pabout4 {
+    position: absolute;
+    top: 260px;
+    left: 9%;
+    width: 290px;
+    font-family: arial;
+    font-size: 16.7px;
+}
+
+#pproject1 {
+    position: absolute;
+    top: 119px;
+    left: 4%;
+    width: 350px;
+    height: 470px;
+}
+
+#pproject2 {
+    position: absolute;
+    top: 119px;
+    left: 56%;
+    width: 350px;
+    height: 470px;
+}
+
+#pproject3 {
+    position: absolute;
+    top: 669px;
+    left: 4%;
+    width: 350px;
+    height: 470px;
+}
+
+#pproject4 {
+    position: absolute;
+    top: 669px;
+    left: 56%;
+    width: 350px;
+    height: 470px;
+}
