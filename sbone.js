@@ -4,10 +4,10 @@ $(document).ready(function(){
     window.location.href = "overview.html"
   });
   $("#btn2").click(function(){
-    window.location.href = "project.html"
+    window.location.href = "collaboration.html"
   });
   $("#btn3").click(function(){
-    window.location.href = "member.html"
+    window.location.href = "project.html"
   });
   $("#btn4").click(function(){
     window.location.href = "aboutus.html"
@@ -139,10 +139,10 @@ $(document).ready(function(){
     });
 
     $("#drop1").click(function(){
-      window.location.href = "project.html"
+      window.location.href = "collaboration.html"
     });
     $("#drop2").click(function(){
-      window.location.href = "member.html"
+      window.location.href = "project.html"
     });
     $("#drop3").click(function(){
       window.location.href = "sbone.html"
