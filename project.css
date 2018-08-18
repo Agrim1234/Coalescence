@@ -17,7 +17,7 @@ body{
 #logo{
     position: fixed;
     z-index: 6;
-    width: 52px;
+    width: 40px;
     height: 40px;
 }
 
@@ -33,7 +33,7 @@ body{
 #drop1 {
     position: absolute;
     top: 4px;
-    left: 57.5%;
+    left: 54.7%;
     float: right;
     overflow: hidden;
     background-color: white;
@@ -44,7 +44,7 @@ body{
 #drop2 {
     position: absolute;
     top: 4px;
-    left: 67%;
+    left: 62%;
     float: right;
     overflow: hidden;
     background-color: inherit;
@@ -67,7 +67,7 @@ body{
     color: white;
     position: absolute;
     top: 4px;
-    left: 76%;
+    left: 72%;
     float: right;
     overflow: hidden;
     background-color: inherit;
@@ -78,7 +78,18 @@ body{
     color: white;
     position: absolute;
     top: 4px;
-    left: 90%;
+    left: 82%;
+    float: right;
+    overflow: hidden;
+    background-color: inherit;
+    border-radius: 16px;
+}
+
+#drop6 {
+    color: white;
+    position: absolute;
+    top: 4px;
+    left: 88.5%;
     float: right;
     overflow: hidden;
     background-color: inherit;
@@ -135,6 +146,16 @@ body{
     color: white;
 }
 
+.pdropdown .pdropbtn6{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    color: white;
+}
+
 #curr{
     position: absolute;
     width: 100%;
@@ -149,17 +170,6 @@ body{
     text-align: center;
     font-family: arial;
     font-size: 23px;
-}
-
-
-.pdropdown .pdropbtn4{
-    font-size: 16px;
-    border: none;
-    outline: none;
-    padding: 14px 16px;
-    background-color: inherit;
-    font: inherit;
-    color: white;
 }
 
 .pdropdown:hover .pdropbtn1{
@@ -183,6 +193,11 @@ body{
 }
 
 .pdropdown:hover .pdropbtn5{
+    background-color: white;
+    color: black;
+}
+
+.pdropdown:hover .pdropbtn6{
     background-color: white;
     color: black;
 }

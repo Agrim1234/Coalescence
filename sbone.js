@@ -10,10 +10,10 @@ $(document).ready(function(){
     window.location.href = "member.html"
   });
   $("#btn4").click(function(){
-    window.location.href = "collaboration.html"
+    window.location.href = "aboutus.html"
   });
   $("#btn5").click(function(){
-    window.location.href = "aboutus.html"
+    window.location.href = "member.html"
   });
 
   $(".currentm").click(function(){
@@ -148,10 +148,10 @@ $(document).ready(function(){
       window.location.href = "sbone.html"
     });
     $("#drop4").click(function(){
-      window.location.href = "collaboration.html"
+      window.location.href = "aboutus.html"
     });
     $("#drop5").click(function(){
-      window.location.href = "aboutus.html"
+      window.location.href = "member.html"
     });
 
     $(".accordion1").click(function(){
