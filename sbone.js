@@ -4,16 +4,16 @@ $(document).ready(function(){
     window.location.href = "index.html"
   });
   $("#btn2").click(function(){
-    window.location.href = "collaboration.html"
-  });
-  $("#btn3").click(function(){
     window.location.href = "project.html"
   });
-  $("#btn4").click(function(){
+  $("#btn3").click(function(){
     window.location.href = "aboutus.html"
   });
-  $("#btn5").click(function(){
+  $("#btn4").click(function(){
     window.location.href = "member.html"
+  });
+  $("#btn5").click(function(){
+    window.location.href = "collaboration.html"
   });
 
   $(".currentm").click(function(){
