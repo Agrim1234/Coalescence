@@ -8,7 +8,6 @@
     top: 0px;
     left: 0px;
     z-index: 5;
-
 }
 
 #logo{
@@ -20,9 +19,8 @@
 
 .head3 {
     position: fixed;
-    top: -10px;
+    top: -3px;
     left: 6%;
-    font-size: 25px;
     font-family: Arial;
     z-index: 6;
     color: white
