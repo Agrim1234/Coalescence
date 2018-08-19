@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
   $("#btn1").click(function(){
-    window.location.href = "overview.html"
+    window.location.href = "index.html"
   });
   $("#btn2").click(function(){
     window.location.href = "collaboration.html"
@@ -145,7 +145,7 @@ $(document).ready(function(){
       window.location.href = "project.html"
     });
     $("#drop3").click(function(){
-      window.location.href = "sbone.html"
+      window.location.href = "index.html"
     });
     $("#drop4").click(function(){
       window.location.href = "aboutus.html"
