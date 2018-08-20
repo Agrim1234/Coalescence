@@ -16,6 +16,16 @@ $(document).ready(function(){
     window.location.href = "collaboration.html"
   });
 
+  $(".ilink1").click(function(){
+    window.location.href = "project.html"
+  });
+  $(".ilink2").click(function(){
+    window.location.href = "novatia.html"
+  });
+  $(".ilink3").click(function(){
+    window.location.href = "startupact.html"
+  });
+
   $(".currentm").click(function(){
     $(".mcurrent").slideDown(1000);
     $(".mprevious").slideUp(1);
@@ -141,8 +151,13 @@ $(document).ready(function(){
     $("#drop1").click(function(){
       window.location.href = "collaboration.html"
     });
-    $("#drop2").click(function(){
-      window.location.href = "project.html"
+    $("#drop2").hover(function(){
+      $(".dropdown-content").css({"display":"block"});
+    });
+    $(".dropdown-content").hover(function(){
+      $(".dropdown-content").css({"display":"block"});
+      }, function(){
+      $(".dropdown-content").css({"display":"none"});
     });
     $("#drop3").click(function(){
       window.location.href = "index.html"

@@ -228,3 +228,41 @@
   top: -16px;
   text-align: center;
 }
+
+.dropdown-content {
+    position: fixed;
+    display: none;
+    color: white;
+    background: black;
+    width: 130px;
+    left: 62%;
+    top: 8%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 9;
+}
+
+.dropdown-content .ilink1, .ilink2, .ilink3{
+    color: white;
+    font-size: 14px;
+    padding: 14px 8px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content .ilink1:hover {
+    background-color: white;
+    color: black
+}
+.dropdown-content .ilink2:hover {
+    background-color: white;
+    color: black;
+}
+.dropdown-content .ilink3:hover {
+    background-color: white;
+    color: black;
+}
+
+#drop2:hover .dropdown-content {
+    display: block;
+}

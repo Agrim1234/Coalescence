@@ -132,9 +132,9 @@
     border: none;
     outline: none;
     padding: 14px 16px;
-    background-color: inherit;
+    background-color: white;
     font: inherit;
-    color: white;
+    color: black;
 }
 
 .dropdown .dropbtn3{
@@ -152,9 +152,9 @@
     border: none;
     outline: none;
     padding: 14px 16px;
-    background-color: white;
+    background-color: inherit;
     font: inherit;
-    color: black;
+    color: white;
 }
 
 .dropdown .dropbtn5{
